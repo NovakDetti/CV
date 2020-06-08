@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.0e87e25f.chunk.css",
+    "main.css": "/CV/static/css/main.1d4eaf8b.chunk.css",
     "main.js": "/CV/static/js/main.1d7aff07.chunk.js",
     "main.js.map": "/CV/static/js/main.1d7aff07.chunk.js.map",
     "runtime-main.js": "/CV/static/js/runtime-main.57628258.js",
@@ -9,10 +9,10 @@
     "static/js/2.b40ca6a4.chunk.js": "/CV/static/js/2.b40ca6a4.chunk.js",
     "static/js/2.b40ca6a4.chunk.js.map": "/CV/static/js/2.b40ca6a4.chunk.js.map",
     "index.html": "/CV/index.html",
-    "precache-manifest.659db88bc4fa78dbc87bc747642020b6.js": "/CV/precache-manifest.659db88bc4fa78dbc87bc747642020b6.js",
+    "precache-manifest.416e2c84d50b594722175f620e169b43.js": "/CV/precache-manifest.416e2c84d50b594722175f620e169b43.js",
     "service-worker.js": "/CV/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/CV/static/css/2.06565635.chunk.css.map",
-    "static/css/main.0e87e25f.chunk.css.map": "/CV/static/css/main.0e87e25f.chunk.css.map",
+    "static/css/main.1d4eaf8b.chunk.css.map": "/CV/static/css/main.1d4eaf8b.chunk.css.map",
     "static/js/2.b40ca6a4.chunk.js.LICENSE.txt": "/CV/static/js/2.b40ca6a4.chunk.js.LICENSE.txt",
     "static/media/designs.style.scss": "/CV/static/media/landing.7779ae9a.png",
     "static/media/degree.jpg": "/CV/static/media/degree.59ce4711.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.57628258.js",
     "static/css/2.06565635.chunk.css",
     "static/js/2.b40ca6a4.chunk.js",
-    "static/css/main.0e87e25f.chunk.css",
+    "static/css/main.1d4eaf8b.chunk.css",
     "static/js/main.1d7aff07.chunk.js"
   ]
 }
