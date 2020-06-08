@@ -1,0 +1,64 @@
+$middle-size : 1300px;
+$smaller-size : 1200px;
+$small : 1000px;
+$x-small: 800px;
+$mobil-friendly : 500px;  
+
+
+.skill{
+      width: 50%;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      
+    h5{
+    color: white;
+    width: 50%;
+    }
+
+    .dot{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    background-image: linear-gradient(rgb(91, 91, 91), white);
+    
+    }
+
+    .level{
+    background-image: linear-gradient(rgb(254, 94, 129),rgb(255, 136, 162));
+    }
+}
+
+@media screen and (max-width: $small ) {
+    .skill{
+        .dot{
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: $small ) {
+    .skill{
+        .dot{
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: $mobil-friendly) {
+    .skill{
+        h5{
+            color: white;
+            width: 25%;
+            font-size: 0.7rem;
+            margin-right: 1.3rem;
+        }
+        .dot{
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+    }
+}

@@ -1,0 +1,158 @@
+$middle-size : 1300px;
+$smaller-size : 1200px;
+$small : 1000px;
+$x-small: 800px;
+$mobil-friendly: 500px;
+
+
+.col-lg-12{
+    margin-top: 4rem;
+
+   #intro{
+    display: flex;
+
+        #picture{
+            margin: 0 auto;
+            background-size: cover;
+            background-position: center;
+            width: 12rem;
+            height: 12rem;
+            clip-path: circle(50% at 50% 50%);
+            z-index: 1;
+        }
+
+
+        #informations{
+            position: absolute;
+            border: none;
+            width: 35%;
+            height: 220px;
+            color: rgb(230, 230, 230);
+        }
+    } 
+}
+
+.text-style{
+    margin-top: 2rem;
+}
+
+.right-aligned{
+    left: 60%;
+    text-align: left;
+    margin-left: -2rem;
+}
+
+.left-aligned{
+    text-align: right;
+    margin-left: 4rem;
+}
+
+.vl{
+    display: inline-block;
+    border-left: 1px solid rgb(133, 133, 133);
+    margin: 0;
+    position: absolute;
+    right: 50%;
+    height: 16rem;
+}
+
+
+@media screen and (max-width: $middle-size){
+    .col-lg-12{
+        margin-top: -2rem;
+    }
+
+    #picture{
+        border: solid 5px white;
+        border-radius: 50%;
+    }
+
+
+    .left-aligned{
+        text-align: right;
+    }
+
+    .right-aligned{
+        left: 60%;
+        text-align: left;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: $smaller-size){
+    #informations{
+        position: absolute;
+        border: none;
+        width: 35%;
+        height: 220px;
+        right: 3%;
+        text-align: left;
+
+    }
+}
+
+@media screen and (max-width: $small){
+    #intro{
+        position: relative;
+        border: none;
+        width: 35%;
+        right: 3%;
+    }
+
+    #informations{
+        margin-left: 4rem;
+        text-align: left;
+        left: 70%;
+
+        h6,h5{
+            padding: 1rem;
+        }
+    }
+
+    .inside-border{
+        width: 20rem;
+    }
+
+
+    .vl{
+        display: none;
+    }
+}
+
+@media screen and (max-width: $x-small){
+.col-lg-12{
+    margin-top: 0.1rem;
+    #intro{
+        #picture{
+            width: 8rem;
+            height: 8rem;
+        }
+    }   
+}
+
+.text-style{
+    margin: 0;
+}
+
+#informations h6, #informations h5{
+    padding: 0;
+}
+
+}
+
+@media screen and (max-width: $x-small){
+.col-lg-12{
+    margin-top: 0.2rem;
+    #intro{
+        #picture{
+            width: 6rem;
+            height: 6rem;
+        }
+    }   
+}
+
+h5,h6{
+    font-size: 0.7rem;
+}
+
+}

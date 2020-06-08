@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+$middle-size : 1300px;
+$smaller-size : 1200px;
+$small : 1000px;
+$x-small: 800px;
+$mobil-friendly: 500px;
+
+#skill-table{
+  margin-top: 10rem;
+
+  h3{
+      font-family: 'Patrick Hand', cursive;
+      color: rgb(139, 230, 255);
+  }
+
+  .skill-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: $x-small) {
+  #skill-table{
+  margin-top: 6rem;}
+}

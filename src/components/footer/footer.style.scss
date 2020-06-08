@@ -1,0 +1,25 @@
+$middle-size : 1300px;
+$smaller-size : 1200px;
+$small : 1000px;
+$x-small: 800px;
+$mobil-friendly: 500px;
+
+#footer-container {
+    text-align: center;
+    padding: 2rem;
+    color: grey;
+}
+
+@media screen and (max-width: $small){
+    #footer-container {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: $x-small){
+    #footer-container {
+        font-size: 0.5rem;
+    }
+
+}

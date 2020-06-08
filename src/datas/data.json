@@ -1,0 +1,36 @@
+{
+    "skills" : [
+        {
+            "name" : "JavaScript",
+            "level" : "5" 
+        },
+        {
+            "name": "HTML5/CSS3",
+            "level": "5"
+        },
+        {
+            "name": "React",
+            "level": "4"
+        },
+        {
+            "name": "Redux",
+            "level": "3"
+        },
+        {
+            "name": "Node",
+            "level": "3"
+        },
+        {
+            "name": "MongoDB",
+            "level": "3"
+        },
+        {
+            "name": "npm",
+            "level": "5"
+        },
+        {
+            "name": "Typescript",
+            "level": "3"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+$middle-size : 1300px;
+$smaller-size : 1200px;
+$small : 1000px;
+$x-small: 800px; 
+$mobil-friendly: 500px; 
+ 
+ @mixin picAttribs {
+    background-size: cover;
+    width: 40rem;
+    height: 20rem;
+    box-shadow: 0px 0px 13px 0px rgba(115,115,115,1);
+    margin: 1rem auto;
+    background-repeat: no-repeat;
+}
+ 
+ .designs-container{
+    margin-top: 5rem;
+
+     h3{
+      font-family: 'Patrick Hand', cursive;
+      color: rgb(139, 230, 255);
+      margin-bottom: 4rem;
+  }
+
+  .carousel-item{
+
+      span{
+          color: white;
+          padding: 0.3rem;
+      }
+  }
+
+  #bubble-design{
+    @include picAttribs;
+    background-image: url("../../materials/bubbly.png");
+  }
+
+  #my-frequency{
+    @include picAttribs;
+    background-image: url("../../materials/landing.png");
+  }
+
+  #creatify-design{
+    @include picAttribs;
+    background-image: url("../../materials/creatify.png"); 
+  }
+
+  #cv-design{
+    @include picAttribs;
+    background-image: url("../../materials/cv.png");
+  }
+
+  #docvis-design{
+    @include picAttribs;
+    background-image: url("../../materials/docvis.png");
+  }
+ }
+
+ .carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 2rem;
+    height: 2rem;
+ }
+
+@media screen and (max-width: $x-small){
+ .designs-container{
+   width: 100%;
+    #bubble-design, #my-frequency, #creatify-design, #cv-design, #docvis-design{
+      width: 25rem;
+      height: 15rem;
+    }
+  }
+}
+
+@media screen and (max-width: $mobil-friendly){
+ .designs-container{
+   width: 100%;
+    #bubble-design, #my-frequency, #creatify-design, #cv-design, #docvis-design{
+      width: 20rem;
+      height: 10rem;
+    }
+  }
+}
